@@ -1,0 +1,82 @@
+:root {
+    --background: #1B244A;
+    --redColor: #F94F6D;
+}
+
+@font-face{
+    font-family: CursedTimerULiL;
+    src: url(/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf) format('truetype');
+}
+
+body {
+    margin: 10px;
+    background-color: var(--background);
+    color: #fff
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#new_game{
+    text-align: center;
+    margin: 20px auto -10px auto;
+    background-color: var(--redColor);
+    border-radius: 5px;
+    font-family: CursedTimerUlil;
+    width: 80px;
+    padding: 5px 10px;
+}
+
+.segment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vp;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+
+
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+
+}
+
+.point_buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+
+.point_display {
+    display: flex;
+    justify-content: right;
+    font-family: CursedTimerUlil;
+    font-size: 80px;
+    background-color: black;
+    color: var(--redColor);
+    padding: 20px 20px 20px 30px;
+    border-radius: 5px;
+    margin: 20px;
+    width: 100px;
+    
+}
+
+.button {
+    background-color: var(--background);
+    border: 1px solid #fff;
+    padding: 12px;
+    border-radius: 5px;
+    margin-left: 7px;
+    font-family: CursedTimerUlil;
+    font-size: 18px;
+    
+}
